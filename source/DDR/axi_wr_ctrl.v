@@ -131,13 +131,17 @@ module axi_wr_ctrl(
 
   always @(posedge clk_100M )
   begin
-    if(!rstn | cur_state == IDLE)
+    if(!rstn )
     begin
       wr_busy <= 1'b0;
     end
     else if(wr_req_rise)
     begin
       wr_busy <= 1'b1;
+    end
+    else if(cur_state == IDLE)
+    begin
+      wr_busy <= 1'b0;
     end
     else
     begin

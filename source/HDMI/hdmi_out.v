@@ -106,14 +106,14 @@ module hdmi_out(
   begin
     if(!rstn)
     begin
-      fifo_wdata <= 240'h12f4_12f4_12f4_12f4_12f4_12f4_12f4_1234_1234_1234_1234_1234_1234_1234_1234;
-      //fifo_wdata <= 240'b0;
+      //fifo_wdata <= 240'h12f4_12f4_12f4_12f4_12f4_12f4_12f4_1234_1234_1234_1234_1234_1234_1234_1234;
+      fifo_wdata <= 240'b0;
     end
     else if(f_wr_cnt == 'd1)
     begin
-      fifo_wdata <= 240'h12f4_12f4_12f4_12f4_12f4_12f4_12f4_1234_1234_1234_1234_1234_1234_1234_1234;
-      // fifo_wdata <= ddr_rdata[239:0];
-      fifo_wdata <= 240'h102c_2c3c_cccc_cccc_fcfc_0000_0000_cc0c_cccc_cccc_cccc_cccc_cccc_c00c_1cc0;
+      //fifo_wdata <= 240'h12f4_12f4_12f4_12f4_12f4_12f4_12f4_1234_1234_1234_1234_1234_1234_1234_1234;
+      fifo_wdata <= ddr_rdata[239:0];
+      //fifo_wdata <= 240'h102c_2c3c_cccc_cccc_fcfc_0000_0000_cc0c_cccc_cccc_cccc_cccc_cccc_c00c_1cc0;
     end
     else
     begin

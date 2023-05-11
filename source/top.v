@@ -58,7 +58,7 @@ module top(
   wire ddr_init_done;
   wire rstn ;
   wire clk_10M ;
-  wire [16-1 : 0] rst_value ;
+  wire [24-1 : 0] rst_value ;
 
   reg wr_req                         ;
   reg [`CTRL_ADDR_WIDTH-1:0]wr_addr  ;
@@ -74,9 +74,9 @@ module top(
   assign  led = {wr_busy,rd_busy,rd_req,wr_req};
 
   cnt_once#(
-            .N(16),
+            .N(24),
             .MIN(0),
-            .MAX(16'h2710)
+            .MAX(24'hffffff)
           )cnt_rst(
             .clk(clk_10M),
             .rstn(sys_rst_n),
@@ -84,7 +84,7 @@ module top(
             .cnt(rst_value)
           );
 
-  assign rstn = rst_value == 16'h2710;
+  assign rstn = (rst_value == 24'hffffff);
 
 
   ms72xx_ctl ms72xx_ctl(   //hdmi 转换芯片配置
@@ -202,11 +202,11 @@ module top(
     if(!rstn | !init_done)
     begin
       wr_req <= 'b0;
-      wr_data <= 256'h2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2223;
+      wr_data <= 'h0000_144475_144475_144475_144475_144475_144475_144475_144475_144475_144475;
     end
     else if(!wr_busy_d)
     begin
-      wr_data <= 256'h2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2222_2223;
+      wr_data <= 'h0000_144475_144475_144475_144475_144475_144475_144475_144475_144475_144475;
       wr_req <= 1'b1;
     end
     else

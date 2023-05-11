@@ -39,16 +39,20 @@ module axi_rd_ctrl(
 
   assign rd_req_rise = ~rd_req_d & rd_req;
 
-  always @(posedge clk_100M ) begin
-    if(!rstn) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       cur_state <= IDLE;
     end
-    else begin
+    else
+    begin
       cur_state <= next_state;
     end
   end
 
-  always @(posedge clk_100M ) begin
+  always @(posedge clk_100M )
+  begin
     begin
       rd_req_d <= rd_req;
       rd_req_rise_d <= rd_req_rise;
@@ -56,38 +60,48 @@ module axi_rd_ctrl(
   end
 
 
-  always@(*) begin
+  always@(*)
+  begin
     case(cur_state)
 
-      IDLE : begin
+      IDLE :
+      begin
         if(init_done & rd_req_rise_d)  //初始化完成并且req上升沿时转换到 握手状态
         begin
           next_state = SHAKE;
         end
-        else begin
+        else
+        begin
           next_state = IDLE ;
         end
       end
 
-      SHAKE : begin
-        if(addr_shake) begin
+      SHAKE :
+      begin
+        if(addr_shake)
+        begin
           next_state = READ ;
         end
-        else begin
+        else
+        begin
           next_state = SHAKE;
         end
       end
 
-      READ : begin
-        if(axi_rvalid) begin
+      READ :
+      begin
+        if(axi_rvalid)
+        begin
           next_state = IDLE ;
         end
-        else begin
+        else
+        begin
           next_state = READ;
         end
       end
 
-      default : begin
+      default :
+      begin
         next_state = IDLE ;
       end
 
@@ -95,36 +109,51 @@ module axi_rd_ctrl(
   end
 
   ///////////////////////第三段状态机/////////////////
-  always @(posedge clk_100M ) begin
-    if(!rstn | cur_state == IDLE) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       rd_busy <= 1'b0;
     end
-    else if(rd_req_rise) begin
+    else if(rd_req_rise)
+    begin
       rd_busy <= 1'b1;
     end
-    else begin
+    else if(cur_state == IDLE)
+    begin
+      rd_busy <= 1'b0;
+    end
+    else
+    begin
       rd_busy <= rd_busy;
     end
   end
 
   //地址有效信号
-  always @(posedge clk_100M ) begin
-    if(!rstn) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       axi_arvalid <= 1'b0;
     end
-    else if(addr_shake) begin
+    else if(addr_shake)
+    begin
       axi_arvalid <= 1'b0;
     end
-    else if(cur_state == SHAKE) begin
+    else if(cur_state == SHAKE)
+    begin
       axi_arvalid <= 1'b1;
     end
-    else begin
+    else
+    begin
       axi_arvalid <= axi_arvalid;
     end
   end
 
-  always @(posedge clk_100M ) begin
-    if(!rstn) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       axi_arlen <= 4'b0;
       axi_araddr <= 28'b0;
     end
@@ -133,35 +162,45 @@ module axi_rd_ctrl(
       axi_arlen <= arlen;
       axi_araddr <= rd_addr;
     end
-    else begin
+    else
+    begin
       axi_arlen <= axi_arlen;
       axi_araddr <= axi_araddr;
     end
   end
 
-  always @(posedge clk_100M ) begin
-    if(!rstn) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       rd_data <= 256'b0;
     end
-    else if(axi_rvalid) begin
+    else if(axi_rvalid)
+    begin
       rd_data <= axi_rdata;
     end
-    else begin
+    else
+    begin
       rd_data <= rd_data;
     end
   end
 
-  always @(posedge clk_100M ) begin
-    if(!rstn) begin
+  always @(posedge clk_100M )
+  begin
+    if(!rstn)
+    begin
       rdata_valid <= 1'b0;
     end
-    else if(cur_state == SHAKE) begin
+    else if(cur_state == SHAKE)
+    begin
       rdata_valid <= 1'b0;
     end
-    else if(axi_rvalid) begin
+    else if(axi_rvalid)
+    begin
       rdata_valid <= 1'b1;
     end
-    else begin
+    else
+    begin
       rdata_valid <= rdata_valid ;
     end
   end

@@ -2728,7 +2728,7 @@
         <row>
             <data>N45</data>
             <data>N45</data>
-            <data>402</data>
+            <data>882</data>
         </row>
         <row>
             <data>N47</data>
@@ -2736,9 +2736,9 @@
             <data>34</data>
         </row>
         <row>
-            <data>cnt_rst/cnt[15:0]_or</data>
-            <data>cnt_rst/cnt[15:0]_or_inv</data>
-            <data>16</data>
+            <data>cnt_rst/N0</data>
+            <data>cnt_rst/N0</data>
+            <data>24</data>
         </row>
         <row>
             <data>_$$_GND_$$_</data>
@@ -2751,13 +2751,13 @@
             <data>1</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/axi_rdctrl_inst/N28</data>
-            <data>axi_ctrl_inst/axi_rdctrl_inst/N28</data>
+            <data>axi_ctrl_inst/axi_rdctrl_inst/N62</data>
+            <data>axi_ctrl_inst/axi_rdctrl_inst/N62</data>
             <data>1</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/axi_wr_ctrl_inst/N36</data>
-            <data>axi_ctrl_inst/axi_wr_ctrl_inst/N36</data>
+            <data>axi_ctrl_inst/axi_wr_ctrl_inst/N64</data>
+            <data>axi_ctrl_inst/axi_wr_ctrl_inst/N64</data>
             <data>1</data>
         </row>
         <row>
@@ -2858,7 +2858,7 @@
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/calib_mux/N0</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/calib_mux/N0</data>
-            <data>1559</data>
+            <data>1827</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_dll_update_ctrl/N0</data>
@@ -2868,7 +2868,7 @@
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_reset_ctrl/N17</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_reset_ctrl/N17</data>
-            <data>1191</data>
+            <data>1194</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/N43</data>
@@ -2900,22 +2900,22 @@
         <row>
             <data>ntclkbufg_0</data>
             <data>clkbufg_0</data>
-            <data>3047</data>
+            <data>3796</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/calib_mux/N0</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/calib_mux/N0</data>
-            <data>1559</data>
+            <data>1827</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_reset_ctrl/N17</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_reset_ctrl/N17</data>
-            <data>1191</data>
+            <data>1194</data>
         </row>
         <row>
             <data>N45</data>
             <data>N45</data>
-            <data>403</data>
+            <data>882</data>
         </row>
         <row>
             <data>ntclkbufg_1</data>
@@ -2925,11 +2925,21 @@
         <row>
             <data>ntclkbufg_2</data>
             <data>clkbufg_2</data>
-            <data>260</data>
+            <data>268</data>
         </row>
         <row>
-            <data>hdmi_out_inst/N358</data>
-            <data>hdmi_out_inst/N358_3</data>
+            <data>hdmi_out_inst/N222</data>
+            <data>hdmi_out_inst/N222_5</data>
+            <data>263</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/axi_rvalid</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_dfi/N114</data>
+            <data>243</data>
+        </row>
+        <row>
+            <data>hdmi_out_inst/N354</data>
+            <data>hdmi_out_inst/N354_3</data>
             <data>240</data>
         </row>
         <row>
@@ -2953,14 +2963,14 @@
             <data>101</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/calib_done</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_main_ctrl/calib_done</data>
+            <data>88</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/rdel_calibration</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/rdcal/rdel_calibration</data>
             <data>84</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/ctrl_back_rdy</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/ctrl_back_rdy</data>
-            <data>81</data>
         </row>
         <row>
             <data>hdmi_out_inst/pix_cnt [0]</data>
@@ -2968,9 +2978,9 @@
             <data>79</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/calib_done</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_main_ctrl/calib_done</data>
-            <data>74</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/ctrl_back_rdy</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/ctrl_back_rdy</data>
+            <data>77</data>
         </row>
         <row>
             <data>hdmi_out_inst/pix_cnt [1]</data>
@@ -2983,9 +2993,14 @@
             <data>71</data>
         </row>
         <row>
-            <data>hdmi_out_inst/fifo_wdata [6]</data>
-            <data>hdmi_out_inst/fifo_wdata[6]</data>
-            <data>68</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r [0]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r[0]</data>
+            <data>69</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r [1]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r[1]</data>
+            <data>69</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/rptr</data>
@@ -2998,12 +3013,17 @@
             <data>65</data>
         </row>
         <row>
-            <data>hdmi_out_inst/fifo_wdata [2]</data>
-            <data>hdmi_out_inst/fifo_wdata[2]</data>
-            <data>63</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r [2]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r[2]</data>
+            <data>61</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/_N9765</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r [3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/u_slice_rddata_align/dqs_read_valid_r[3]</data>
+            <data>61</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/_N9828</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/dqs_gate_ctrl_adj_198_5</data>
             <data>56</data>
         </row>
@@ -3023,14 +3043,14 @@
             <data>49</data>
         </row>
         <row>
-            <data>rstn</data>
-            <data>N78_29</data>
-            <data>47</data>
-        </row>
-        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/norm_cmd_m_wr</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N252</data>
             <data>47</data>
+        </row>
+        <row>
+            <data>rstn</data>
+            <data>N67_45</data>
+            <data>46</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/phy_addr [15]</data>
@@ -3043,13 +3063,13 @@
             <data>45</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/init_start</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_main_ctrl/init_start</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/req_rdata [15]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/req_rdata[15]</data>
             <data>45</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/req_rdata [15]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/req_rdata[15]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/init_start</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_main_ctrl/init_start</data>
             <data>45</data>
         </row>
         <row>
@@ -3063,8 +3083,8 @@
             <data>42</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr [25]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr[25]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N14</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N14</data>
             <data>40</data>
         </row>
         <row>
@@ -3073,23 +3093,23 @@
             <data>40</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N14</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N14</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr [26]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr[26]</data>
             <data>40</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N10</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N10</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr [25]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr[25]</data>
             <data>40</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/_N9834</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/_N9897</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/data_slice_dqs_gate_cal/dqs_gate_coarse_cal/dqs_gate_ctrl_adj_159_12</data>
             <data>40</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr [26]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/pre_addr[26]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N10</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/u_user_cmd_fifo/N10</data>
             <data>40</data>
         </row>
         <row>
@@ -3098,13 +3118,13 @@
             <data>38</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [0]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[0]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [0]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[0]</data>
             <data>37</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [0]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[0]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [0]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[0]</data>
             <data>37</data>
         </row>
         <row>
@@ -3118,18 +3138,8 @@
             <data>37</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [2]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[2]</data>
-            <data>36</data>
-        </row>
-        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [1]</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[1]</data>
-            <data>36</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [2]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[2]</data>
             <data>36</data>
         </row>
         <row>
@@ -3138,8 +3148,23 @@
             <data>36</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N119</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N119</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [1]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[1]</data>
+            <data>36</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [2]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[2]</data>
+            <data>36</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N104</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N104</data>
+            <data>36</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [2]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[2]</data>
             <data>36</data>
         </row>
         <row>
@@ -3153,23 +3178,18 @@
             <data>36</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [2]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[2]</data>
+            <data>36</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [2]</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[2]</data>
             <data>36</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [1]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.wptr[1]</data>
-            <data>36</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N104</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N104</data>
-            <data>36</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [2]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.rptr[2]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N119</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N119</data>
             <data>36</data>
         </row>
         <row>
@@ -3183,6 +3203,16 @@
             <data>35</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.waddr_msb</data>
+            <data>34</data>
+        </row>
+        <row>
+            <data>N47</data>
+            <data>N47_inv</data>
+            <data>34</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [3]</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.raddr_msb</data>
             <data>34</data>
@@ -3193,13 +3223,13 @@
             <data>34</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [3]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.waddr_msb</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.raddr_msb</data>
             <data>34</data>
         </row>
         <row>
-            <data>N47</data>
-            <data>N47_inv</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.waddr_msb</data>
             <data>34</data>
         </row>
         <row>
@@ -3208,18 +3238,13 @@
             <data>34</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [3]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.waddr_msb</data>
-            <data>34</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/rd_addr [3]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/u_ipsxb_distributed_fifo_ctr/SYN_CTRL.raddr_msb</data>
-            <data>34</data>
-        </row>
-        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/norm_cmd_l_rd</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N212</data>
+            <data>33</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N187</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N187</data>
             <data>33</data>
         </row>
         <row>
@@ -3228,18 +3253,13 @@
             <data>33</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_bm/_N58399</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_bm/N267_or[0]_4</data>
-            <data>32</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N193</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N193</data>
+            <data>33</data>
         </row>
         <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/adj_wrdq_en [2]</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/wdata_path_adj/N14[2]</data>
-            <data>32</data>
-        </row>
-        <row>
-            <data>ms72xx_ctl/ms7200_ctl/state_0</data>
-            <data>ms72xx_ctl/ms7200_ctl/state_0</data>
             <data>32</data>
         </row>
         <row>
@@ -3253,13 +3273,23 @@
             <data>32</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/adj_wrdq_en [3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/wdata_path_adj/N14[3]</data>
+            <data>32</data>
+        </row>
+        <row>
+            <data>ms72xx_ctl/ms7200_ctl/state_0</data>
+            <data>ms72xx_ctl/ms7200_ctl/state_0</data>
+            <data>32</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/adj_wrdq_en [1]</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/wdata_path_adj/N14[1]</data>
             <data>32</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/adj_wrdq_en [3]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/wdata_path_adj/N14[3]</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_bm/_N58218</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_bm/N318_9</data>
             <data>32</data>
         </row>
         <row>
@@ -3268,18 +3298,18 @@
             <data>31</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/axi_awvalid</data>
+            <data>axi_ctrl_inst/axi_wr_ctrl_inst/axi_awvalid</data>
+            <data>30</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/axi_arvalid</data>
             <data>axi_ctrl_inst/axi_rdctrl_inst/axi_arvalid</data>
-            <data>31</data>
+            <data>30</data>
         </row>
         <row>
             <data>hdmi_out_inst/pix_cnt [3]</data>
             <data>hdmi_out_inst/pix_cnt[3]</data>
-            <data>30</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/axi_awvalid</data>
-            <data>axi_ctrl_inst/axi_wr_ctrl_inst/axi_awvalid</data>
             <data>30</data>
         </row>
         <row>
@@ -3293,23 +3323,8 @@
             <data>28</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N187</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N187</data>
-            <data>27</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/rptr</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/rptr</data>
-            <data>27</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N193</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N193</data>
-            <data>27</data>
-        </row>
-        <row>
-            <data>ms72xx_ctl/ms7200_ctl/state_4</data>
-            <data>ms72xx_ctl/ms7200_ctl/state_4</data>
+            <data>ms72xx_ctl/ms7200_ctl/state_1</data>
+            <data>ms72xx_ctl/ms7200_ctl/state_1</data>
             <data>27</data>
         </row>
         <row>
@@ -3318,23 +3333,18 @@
             <data>27</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/rptr</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/rptr</data>
+            <data>27</data>
+        </row>
+        <row>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/init_state_0</data>
             <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/init_state_0</data>
             <data>27</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/dqsi_rdel_cal/N456</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/dqsi_rdel_cal/N456</data>
-            <data>26</data>
-        </row>
-        <row>
-            <data>ms72xx_ctl/ms7200_ctl/state_1</data>
-            <data>ms72xx_ctl/ms7200_ctl/state_1</data>
-            <data>26</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/pipe_cmd_accepted_l</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/pipe_cmd_accepted_l</data>
+            <data>ms72xx_ctl/ms7200_ctl/state_4</data>
+            <data>ms72xx_ctl/ms7200_ctl/state_4</data>
             <data>26</data>
         </row>
         <row>
@@ -3343,13 +3353,18 @@
             <data>26</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/N54</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/N54</data>
-            <data>25</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/dqsi_rdel_cal/N456</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].u_ddrphy_data_slice/dqsi_rdel_cal/N456</data>
+            <data>26</data>
         </row>
         <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N10</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N10</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/pipe_cmd_accepted_l</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/pipe_cmd_accepted_l</data>
+            <data>26</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N14</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N14</data>
             <data>25</data>
         </row>
         <row>
@@ -3358,44 +3373,29 @@
             <data>25</data>
         </row>
         <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N10</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N10</data>
+            <data>25</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/N54</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/N54</data>
+            <data>25</data>
+        </row>
+        <row>
             <data>nt_de_out</data>
             <data>hdmi_out_inst/hv_cnt_inst/de_out</data>
+            <data>25</data>
+        </row>
+        <row>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_sm/N461</data>
+            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_sm/N458_3</data>
             <data>25</data>
         </row>
         <row>
             <data>axi_ctrl_inst/axi_rdctrl_inst/rd_req_rise</data>
             <data>axi_ctrl_inst/axi_rdctrl_inst/N2</data>
             <data>25</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N14</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/N14</data>
-            <data>25</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/phy_wrdata [160]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_dfi/phy_wrdata[160]</data>
-            <data>24</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/phy_wrdata [96]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_dfi/phy_wrdata[96]</data>
-            <data>24</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/dec_done</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcd_top/mcdq_dcd_sm/dec_done</data>
-            <data>24</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/phy_wrdata [32]</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ddrphy_top/ddrphy_dfi/phy_wrdata[32]</data>
-            <data>24</data>
-        </row>
-        <row>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/norm_cmd_l_wra</data>
-            <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/N240_2</data>
-            <data>24</data>
         </row>
     </table>
     <table id="device_map_resource_usage" title="Resource Usage Summary" column_number="4">
@@ -3419,13 +3419,13 @@
         </row>
         <row>
             <data>FF</data>
-            <data>3511</data>
+            <data>4268</data>
             <data>64200</data>
-            <data>6</data>
+            <data>7</data>
         </row>
         <row>
             <data>LUT</data>
-            <data>4007</data>
+            <data>4265</data>
             <data>42800</data>
             <data>10</data>
         </row>
@@ -3563,8 +3563,8 @@
         <row>
             <data>0h:0m:4s</data>
             <data>0h:0m:4s</data>
-            <data>0h:0m:5s</data>
-            <data>300</data>
+            <data>0h:0m:6s</data>
+            <data>309</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i5-12600KF</data>
             <data>16</data>
@@ -3858,10 +3858,10 @@
             <data message="4">Infer CARRY group, base inst: N63_0_1/gateop, insts:22.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: cnt_rst/N6_1_0/gateop, insts:16.</data>
+            <data message="4">Infer CARRY group, base inst: cnt_rst/N6_1_0/gateop, insts:24.</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: hdmi_out_inst/N69_1_1/gateop, insts:22.</data>
+            <data message="4">Infer CARRY group, base inst: hdmi_out_inst/N67_1_1/gateop, insts:22.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: hdmi_out_inst/hv_cnt_inst/N8_1_1/gateop, insts:11.</data>

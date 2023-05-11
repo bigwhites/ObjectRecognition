@@ -84,7 +84,7 @@
             <data>0h:0m:5s</data>
             <data>0h:0m:5s</data>
             <data>0h:0m:9s</data>
-            <data>204</data>
+            <data>203</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i5-12600KF</data>
             <data>16</data>
@@ -814,9 +814,12 @@
         </row>
         <row>
             <data message="4">Module instance {top.cnt_rst} parameter value:
-    N = 32'b00000000000000000000000000010000
-    MAX = 16'b0010011100010000
+    N = 32'b00000000000000000000000000011000
+    MAX = 24'b111111111111111111111111
     MIN = 32'b00000000000000000000000000000000</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2019: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 84)] Width mismatch between port cnt and signal bound to it for instantiated module cnt_once</data>
         </row>
         <row>
             <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 90)] Elaborating instance ms72xx_ctl</data>
@@ -6130,12 +6133,6 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
             <data message="4">Constant propagation done on N59_5 (bmsREDXOR).</data>
         </row>
         <row>
@@ -6164,6 +6161,9 @@
         </row>
         <row>
             <data message="4">Constant propagation done on N91 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
