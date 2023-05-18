@@ -5,23 +5,24 @@ Setup Summary(Slow Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     15.830       0.000              0            238
- ddrphy_clk_in          ddrphy_clk_in                2.249       0.000              0          12113
+ sys_clk                sys_clk                     15.708       0.000              0            238
+ ddrphy_clk_in          ddrphy_clk_in                2.131       0.000              0          15338
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               11.126       0.000              0            581
+                        ddrphy_clk_in               10.088       0.000              0           1078
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        ddrphy_clk_in                4.841       0.000              0              6
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     1.952       0.000              0            804
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -3.767   -1009.693            314            314
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -8.382    -292.728             38             38
+                        ddrphy_clk_in                4.691       0.000              0              6
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                    94.844       0.000              0           1136
+                                                    94.705       0.000              0           1137
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     2.235       0.000              0            804
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -3.880   -1066.286            314            314
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -8.926    -307.599             38             38
+ top|pixclk_in          top|pixclk_in              994.805       0.000              0           1852
 ====================================================================================================
 
 Hold Summary(Slow Corner):
@@ -30,22 +31,23 @@ Hold Summary(Slow Corner):
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
  sys_clk                sys_clk                      0.339       0.000              0            238
- ddrphy_clk_in          ddrphy_clk_in               -0.202      -4.345             63          12113
+ ddrphy_clk_in          ddrphy_clk_in               -0.304      -3.446             51          15338
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               -5.259   -2465.776            581            581
+                        ddrphy_clk_in               -5.399   -4197.353           1078           1078
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        ddrphy_clk_in               -6.190     -36.883              6              6
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     0.339       0.000              0            804
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     0.316       0.000              0            314
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     6.111       0.000              0             38
+                        ddrphy_clk_in               -6.193     -36.632              6              6
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                     0.190       0.000              0           1136
+                                                     0.190       0.000              0           1137
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     0.341       0.000              0            804
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     0.202       0.000              0            314
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     5.996       0.000              0             38
+ top|pixclk_in          top|pixclk_in                0.267       0.000              0           1852
 ====================================================================================================
 
 Recovery Summary(Slow Corner):
@@ -53,18 +55,18 @@ Recovery Summary(Slow Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     18.057       0.000              0             64
- ddrphy_clk_in          ddrphy_clk_in                4.378       0.000              0           1709
+ sys_clk                sys_clk                     17.627       0.000              0             64
+ ddrphy_clk_in          ddrphy_clk_in                3.494       0.000              0           2157
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               11.827       0.000              0             22
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -4.518     -90.948             22             22
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -9.012    -189.608             22             22
+                        ddrphy_clk_in               10.502       0.000              0             44
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                    94.393       0.000              0              1
+                                                    93.981       0.000              0              1
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -4.272     -83.947             22             22
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -9.342    -195.538             22             22
 ====================================================================================================
 
 Removal Summary(Slow Corner):
@@ -72,18 +74,18 @@ Removal Summary(Slow Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                      0.739       0.000              0             64
- ddrphy_clk_in          ddrphy_clk_in                0.391       0.000              0           1709
+ sys_clk                sys_clk                      0.706       0.000              0             64
+ ddrphy_clk_in          ddrphy_clk_in                0.499       0.000              0           2157
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               -4.640     -96.870             22             22
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     1.477       0.000              0             22
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     7.121       0.000              0             22
+                        ddrphy_clk_in               -4.591    -172.850             44             44
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                     3.566       0.000              0              1
+                                                     3.783       0.000              0              1
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     1.295       0.000              0             22
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     7.318       0.000              0             22
 ====================================================================================================
 
 Minimum Pulse Width Summary(Slow Corner):
@@ -98,23 +100,24 @@ Setup Summary(Fast Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     17.031       0.000              0            238
- ddrphy_clk_in          ddrphy_clk_in                4.506       0.000              0          12113
+ sys_clk                sys_clk                     16.952       0.000              0            238
+ ddrphy_clk_in          ddrphy_clk_in                4.433       0.000              0          15338
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               10.071       0.000              0            581
+                        ddrphy_clk_in                9.348       0.000              0           1078
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        ddrphy_clk_in                2.740       0.000              0              6
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     3.236       0.000              0            804
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -2.719    -722.019            314            314
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -5.345    -185.250             38             38
+                        ddrphy_clk_in                2.640       0.000              0              6
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                    96.334       0.000              0           1136
+                                                    96.243       0.000              0           1137
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     3.432       0.000              0            804
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -2.790    -759.540            314            314
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -5.735    -195.916             38             38
+ top|pixclk_in          top|pixclk_in              996.361       0.000              0           1852
 ====================================================================================================
 
 Hold Summary(Fast Corner):
@@ -123,22 +126,23 @@ Hold Summary(Fast Corner):
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
  sys_clk                sys_clk                      0.264       0.000              0            238
- ddrphy_clk_in          ddrphy_clk_in               -0.199      -8.026            115          12113
+ ddrphy_clk_in          ddrphy_clk_in               -0.272      -6.457             91          15338
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               -3.226   -1478.281            581            581
+                        ddrphy_clk_in               -3.293   -2522.113           1078           1078
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        ddrphy_clk_in               -3.854     -22.955              6              6
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     0.264       0.000              0            804
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     0.208       0.000              0            314
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     3.701       0.000              0             38
+                        ddrphy_clk_in               -3.856     -22.796              6              6
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                     0.134       0.000              0           1136
+                                                     0.134       0.000              0           1137
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     0.252       0.000              0            804
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     0.143       0.000              0            314
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     3.631       0.000              0             38
+ top|pixclk_in          top|pixclk_in                0.208       0.000              0           1852
 ====================================================================================================
 
 Recovery Summary(Fast Corner):
@@ -146,18 +150,18 @@ Recovery Summary(Fast Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     18.575       0.000              0             64
- ddrphy_clk_in          ddrphy_clk_in                5.826       0.000              0           1709
+ sys_clk                sys_clk                     18.285       0.000              0             64
+ ddrphy_clk_in          ddrphy_clk_in                5.215       0.000              0           2157
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               10.564       0.000              0             22
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -3.270     -65.600             22             22
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                    -5.840    -122.140             22             22
+                        ddrphy_clk_in                9.668       0.000              0             44
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                    95.901       0.000              0              1
+                                                    95.655       0.000              0              1
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -3.080     -60.774             22             22
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                    -6.069    -126.532             22             22
 ====================================================================================================
 
 Removal Summary(Fast Corner):
@@ -165,18 +169,18 @@ Removal Summary(Fast Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                      0.545       0.000              0             64
- ddrphy_clk_in          ddrphy_clk_in                0.244       0.000              0           1709
+ sys_clk                sys_clk                      0.539       0.000              0             64
+ ddrphy_clk_in          ddrphy_clk_in                0.297       0.000              0           2157
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        ddrphy_clk_in               -2.767     -57.491             22             22
- sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     0.987       0.000              0             22
- ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
-                                                     4.409       0.000              0             22
+                        ddrphy_clk_in               -2.740    -102.245             44             44
  sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
                         sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
-                                                     2.493       0.000              0              1
+                                                     2.635       0.000              0              1
+ sys_clk|pll_top_inst/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     0.860       0.000              0             22
+ ddrphy_clk_in          sys_clk|pll_top_inst/u_pll_e3/CLKOUT1_Inferred
+                                                     4.527       0.000              0             22
 ====================================================================================================
 
 Minimum Pulse Width Summary(Fast Corner):

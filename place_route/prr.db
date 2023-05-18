@@ -22,6 +22,166 @@
             <data>CONSTRAINT</data>
         </column_headers>
         <row>
+            <data>b_in[0]</data>
+            <data>input</data>
+            <data>U14</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[1]</data>
+            <data>input</data>
+            <data>U15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[2]</data>
+            <data>input</data>
+            <data>T15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[3]</data>
+            <data>input</data>
+            <data>W15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[4]</data>
+            <data>input</data>
+            <data>Y16</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[5]</data>
+            <data>input</data>
+            <data>AB16</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[6]</data>
+            <data>input</data>
+            <data>AA16</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>b_in[7]</data>
+            <data>input</data>
+            <data>AB17</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
             <data>b_out[0]</data>
             <data>output</data>
             <data>V21</data>
@@ -182,6 +342,26 @@
             <data>YES</data>
         </row>
         <row>
+            <data>de_in</data>
+            <data>input</data>
+            <data>U13</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
             <data>de_out</data>
             <data>output</data>
             <data>Y22</data>
@@ -199,6 +379,166 @@
             <data>NA</data>
             <data>NA</data>
             <data>OFF</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[0]</data>
+            <data>input</data>
+            <data>Y17</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[1]</data>
+            <data>input</data>
+            <data>V17</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[2]</data>
+            <data>input</data>
+            <data>W18</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[3]</data>
+            <data>input</data>
+            <data>AB19</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[4]</data>
+            <data>input</data>
+            <data>AA18</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[5]</data>
+            <data>input</data>
+            <data>AB18</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[6]</data>
+            <data>input</data>
+            <data>Y18</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>g_in[7]</data>
+            <data>input</data>
+            <data>W17</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
             <data>YES</data>
         </row>
         <row>
@@ -1982,6 +2322,26 @@
             <data>YES</data>
         </row>
         <row>
+            <data>pixclk_in</data>
+            <data>input</data>
+            <data>AA12</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
             <data>pixclk_out</data>
             <data>output</data>
             <data>M22</data>
@@ -1999,6 +2359,166 @@
             <data>NA</data>
             <data>NA</data>
             <data>OFF</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[0]</data>
+            <data>input</data>
+            <data>Y15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[1]</data>
+            <data>input</data>
+            <data>AB15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[2]</data>
+            <data>input</data>
+            <data>U16</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[3]</data>
+            <data>input</data>
+            <data>V15</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[4]</data>
+            <data>input</data>
+            <data>AA14</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[5]</data>
+            <data>input</data>
+            <data>AB14</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[6]</data>
+            <data>input</data>
+            <data>W14</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>r_in[7]</data>
+            <data>input</data>
+            <data>Y14</data>
+            <data>BANK2</data>
+            <data>3.3</data>
+            <data>LVCMOS33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
             <data>YES</data>
         </row>
         <row>
@@ -3389,18 +3909,18 @@
             <data>IOBD_289_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_47P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[2]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>U14</data>
             <data>IOBD_217_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_35P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[0]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AA10</data>
@@ -3434,9 +3954,9 @@
             <data>IOBD_317_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_53P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[1]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AA20</data>
@@ -3452,18 +3972,18 @@
             <data>IOBD_281_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_46P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[7]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AA14</data>
             <data>IOBD_273_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_45P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[4]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>R13</data>
@@ -3488,27 +4008,27 @@
             <data>IOBD_225_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_37P/D11</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[4]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>Y17</data>
             <data>IOBD_221_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_36P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[0]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>Y16</data>
             <data>IOBD_213_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_34P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[4]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>V13</data>
@@ -3524,27 +4044,27 @@
             <data>IOBD_201_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_32P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[6]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>W14</data>
             <data>IOBD_197_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_31P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[6]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>Y15</data>
             <data>IOBD_189_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_30P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[0]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>R11</data>
@@ -3560,9 +4080,9 @@
             <data>IOBD_181_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_28P</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[2]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>T12</data>
@@ -3587,9 +4107,9 @@
             <data>IOBD_161_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_25P/GCLK31/PLL4_CLK7/PLL5_CLK7/D14</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>pixclk_in</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>Y11</data>
@@ -3767,9 +4287,9 @@
             <data>IOBS_TB_316_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_53N/MFG_TEST_OUT</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[2]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB20</data>
@@ -3785,18 +4305,18 @@
             <data>IOBS_TB_280_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_46N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[6]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB14</data>
             <data>IOBS_TB_272_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_45N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[5]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>T14</data>
@@ -3812,36 +4332,36 @@
             <data>IOBS_TB_240_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_38N/D10</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[3]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB18</data>
             <data>IOBS_TB_224_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_37N/D12</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>g_in[5]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB17</data>
             <data>IOBS_TB_220_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_36N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[7]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>W15</data>
             <data>IOBS_TB_212_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_34N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[3]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>W13</data>
@@ -3857,27 +4377,27 @@
             <data>IOBS_TB_200_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_32N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[5]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>Y14</data>
             <data>IOBS_TB_196_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_31N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[7]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB15</data>
             <data>IOBS_TB_188_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_30N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[1]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>T11</data>
@@ -3893,9 +4413,9 @@
             <data>IOBS_TB_180_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_28N</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>b_in[1]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>U12</data>
@@ -4091,18 +4611,18 @@
             <data>IOBR_TB_288_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_47N/VREF_B2</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>r_in[3]</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>U13</data>
             <data>IOBR_TB_216_0</data>
             <data>BANK2</data>
             <data>DIFFIO_B2_35N/VREF_B2</data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>de_in</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>AB10</data>
@@ -4912,56 +5432,56 @@
         </row>
         <row>
             <data>Use of BKCL</data>
-            <data>3</data>
             <data>4</data>
-            <data>75</data>
+            <data>4</data>
+            <data>100</data>
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>842</data>
+            <data>1108</data>
             <data>6450</data>
-            <data>14</data>
+            <data>18</data>
             <row>
                 <data>  FF</data>
-                <data>2622</data>
+                <data>3833</data>
                 <data>38700</data>
-                <data>7</data>
-            </row>
-            <row>
-                <data>  LUT</data>
-                <data>2577</data>
-                <data>25800</data>
                 <data>10</data>
             </row>
             <row>
-                <data>  LUT-FF pairs</data>
-                <data>1219</data>
+                <data>  LUT</data>
+                <data>3061</data>
                 <data>25800</data>
-                <data>5</data>
+                <data>12</data>
+            </row>
+            <row>
+                <data>  LUT-FF pairs</data>
+                <data>1709</data>
+                <data>25800</data>
+                <data>7</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>575</data>
+            <data>751</data>
             <data>4250</data>
-            <data>14</data>
+            <data>18</data>
             <row>
                 <data>  FF</data>
-                <data>1646</data>
+                <data>2596</data>
                 <data>25500</data>
-                <data>7</data>
+                <data>11</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>1693</data>
+                <data>2055</data>
                 <data>17000</data>
-                <data>10</data>
+                <data>13</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>782</data>
+                <data>1046</data>
                 <data>17000</data>
-                <data>5</data>
+                <data>7</data>
             </row>
             <row>
                 <data>  Distributed RAM</data>
@@ -4990,9 +5510,9 @@
         </row>
         <row>
             <data>Use of DRM</data>
-            <data>5.5</data>
+            <data>9.5</data>
             <data>134</data>
-            <data>5</data>
+            <data>8</data>
         </row>
         <row>
             <data>Use of FUSECODE</data>
@@ -5002,7 +5522,7 @@
         </row>
         <row>
             <data>Use of HARD0N1</data>
-            <data>303</data>
+            <data>324</data>
             <data>6672</data>
             <data>5</data>
         </row>
@@ -5014,14 +5534,14 @@
         </row>
         <row>
             <data>Use of IO</data>
-            <data>110</data>
+            <data>136</data>
             <data>296</data>
-            <data>38</data>
+            <data>46</data>
             <row>
                 <data>  IOBD</data>
-                <data>3</data>
+                <data>16</data>
                 <data>64</data>
-                <data>5</data>
+                <data>25</data>
             </row>
             <row>
                 <data>  IOBR_LR</data>
@@ -5031,9 +5551,9 @@
             </row>
             <row>
                 <data>  IOBR_TB</data>
-                <data>1</data>
+                <data>3</data>
                 <data>8</data>
-                <data>13</data>
+                <data>38</data>
             </row>
             <row>
                 <data>  IOBS_LR</data>
@@ -5043,9 +5563,9 @@
             </row>
             <row>
                 <data>  IOBS_TB</data>
-                <data>1</data>
+                <data>12</data>
                 <data>56</data>
-                <data>2</data>
+                <data>22</data>
             </row>
         </row>
         <row>
@@ -5074,9 +5594,9 @@
         </row>
         <row>
             <data>Use of IOL</data>
-            <data>110</data>
+            <data>136</data>
             <data>400</data>
-            <data>28</data>
+            <data>34</data>
         </row>
         <row>
             <data>Use of IPAL</data>
@@ -5164,9 +5684,9 @@
         </row>
         <row>
             <data>Use of USCM</data>
-            <data>6</data>
+            <data>7</data>
             <data>30</data>
-            <data>20</data>
+            <data>24</data>
         </row>
         <row>
             <data>Use of USCMMUX_TEST</data>
@@ -5211,17 +5731,17 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>4265</data>
-            <data>4268</data>
+            <data>5113</data>
+            <data>6429</data>
             <data>70</data>
             <data>0</data>
-            <data>5.5</data>
+            <data>9.5</data>
             <data>0</data>
             <data>1</data>
             <data>8</data>
             <data>0</data>
             <data>0</data>
-            <data>110</data>
+            <data>136</data>
             <data>1</data>
             <data>0</data>
             <data>4</data>
@@ -5234,11 +5754,11 @@
             <data>0</data>
             <data>0</data>
             <data>0</data>
-            <data>6</data>
+            <data>7</data>
             <row>
                 <data>axi_ctrl_inst</data>
-                <data>3615</data>
-                <data>3363</data>
+                <data>4104</data>
+                <data>4473</data>
                 <data>70</data>
                 <data>0</data>
                 <data>0</data>
@@ -5263,8 +5783,8 @@
                 <data>2</data>
                 <row>
                     <data>HMIC_S_inst</data>
-                    <data>3359</data>
-                    <data>3060</data>
+                    <data>3849</data>
+                    <data>3931</data>
                     <data>70</data>
                     <data>0</data>
                     <data>0</data>
@@ -5289,7 +5809,7 @@
                     <data>2</data>
                     <row>
                         <data>u_ddrp_rstn_sync</data>
-                        <data>0</data>
+                        <data>2</data>
                         <data>2</data>
                         <data>0</data>
                         <data>0</data>
@@ -5316,8 +5836,8 @@
                     </row>
                     <row>
                         <data>u_ddrphy_top</data>
-                        <data>2157</data>
-                        <data>1912</data>
+                        <data>2383</data>
+                        <data>2360</data>
                         <data>0</data>
                         <data>0</data>
                         <data>0</data>
@@ -5531,8 +6051,8 @@
                         </row>
                         <row>
                             <data>ddrphy_dfi</data>
-                            <data>85</data>
-                            <data>159</data>
+                            <data>309</data>
+                            <data>607</data>
                             <data>0</data>
                             <data>0</data>
                             <data>0</data>
@@ -5585,7 +6105,7 @@
                         </row>
                         <row>
                             <data>ddrphy_info</data>
-                            <data>94</data>
+                            <data>95</data>
                             <data>60</data>
                             <data>0</data>
                             <data>0</data>
@@ -5720,7 +6240,7 @@
                         </row>
                         <row>
                             <data>ddrphy_slice_top</data>
-                            <data>1564</data>
+                            <data>1565</data>
                             <data>1377</data>
                             <data>0</data>
                             <data>0</data>
@@ -5746,7 +6266,7 @@
                             <data>0</data>
                             <row>
                                 <data>i_dqs_group[0].u_ddrphy_data_slice</data>
-                                <data>467</data>
+                                <data>464</data>
                                 <data>308</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -5772,7 +6292,7 @@
                                 <data>0</data>
                                 <row>
                                     <data>data_slice_dqs_gate_cal</data>
-                                    <data>146</data>
+                                    <data>145</data>
                                     <data>69</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -5825,7 +6345,7 @@
                                     </row>
                                     <row>
                                         <data>gatecal</data>
-                                        <data>48</data>
+                                        <data>47</data>
                                         <data>35</data>
                                         <data>0</data>
                                         <data>0</data>
@@ -5853,7 +6373,7 @@
                                 </row>
                                 <row>
                                     <data>data_slice_wrlvl</data>
-                                    <data>106</data>
+                                    <data>105</data>
                                     <data>76</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -5880,7 +6400,7 @@
                                 </row>
                                 <row>
                                     <data>dqs_rddata_align</data>
-                                    <data>45</data>
+                                    <data>44</data>
                                     <data>74</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -5962,7 +6482,7 @@
                             </row>
                             <row>
                                 <data>i_dqs_group[1].u_ddrphy_data_slice</data>
-                                <data>392</data>
+                                <data>397</data>
                                 <data>284</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -5988,7 +6508,7 @@
                                 <data>0</data>
                                 <row>
                                     <data>data_slice_dqs_gate_cal</data>
-                                    <data>81</data>
+                                    <data>83</data>
                                     <data>61</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6041,7 +6561,7 @@
                                     </row>
                                     <row>
                                         <data>gatecal</data>
-                                        <data>47</data>
+                                        <data>49</data>
                                         <data>35</data>
                                         <data>0</data>
                                         <data>0</data>
@@ -6069,7 +6589,7 @@
                                 </row>
                                 <row>
                                     <data>data_slice_wrlvl</data>
-                                    <data>102</data>
+                                    <data>105</data>
                                     <data>68</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6178,7 +6698,7 @@
                             </row>
                             <row>
                                 <data>i_dqs_group[2].u_ddrphy_data_slice</data>
-                                <data>340</data>
+                                <data>337</data>
                                 <data>262</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -6204,7 +6724,7 @@
                                 <data>0</data>
                                 <row>
                                     <data>data_slice_dqs_gate_cal</data>
-                                    <data>83</data>
+                                    <data>82</data>
                                     <data>61</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6230,7 +6750,7 @@
                                     <data>0</data>
                                     <row>
                                         <data>dqs_gate_coarse_cal</data>
-                                        <data>35</data>
+                                        <data>34</data>
                                         <data>26</data>
                                         <data>0</data>
                                         <data>0</data>
@@ -6339,7 +6859,7 @@
                                 </row>
                                 <row>
                                     <data>dqsi_rdel_cal</data>
-                                    <data>106</data>
+                                    <data>104</data>
                                     <data>59</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6394,7 +6914,7 @@
                             </row>
                             <row>
                                 <data>i_dqs_group[3].u_ddrphy_data_slice</data>
-                                <data>337</data>
+                                <data>339</data>
                                 <data>262</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -6501,7 +7021,7 @@
                                 </row>
                                 <row>
                                     <data>data_slice_wrlvl</data>
-                                    <data>102</data>
+                                    <data>101</data>
                                     <data>68</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6555,7 +7075,7 @@
                                 </row>
                                 <row>
                                     <data>dqsi_rdel_cal</data>
-                                    <data>105</data>
+                                    <data>108</data>
                                     <data>59</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6720,8 +7240,8 @@
                     </row>
                     <row>
                         <data>u_ipsxb_ddrc_top</data>
-                        <data>1201</data>
-                        <data>1146</data>
+                        <data>1463</data>
+                        <data>1569</data>
                         <data>70</data>
                         <data>0</data>
                         <data>0</data>
@@ -6800,7 +7320,7 @@
                         </row>
                         <row>
                             <data>mcdq_dcd_top</data>
-                            <data>157</data>
+                            <data>164</data>
                             <data>134</data>
                             <data>0</data>
                             <data>0</data>
@@ -6852,7 +7372,7 @@
                                 <data>0</data>
                                 <row>
                                     <data>mcdq_dcd_rowaddr</data>
-                                    <data>14</data>
+                                    <data>17</data>
                                     <data>8</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -6880,7 +7400,7 @@
                             </row>
                             <row>
                                 <data>mcdq_dcd_sm</data>
-                                <data>41</data>
+                                <data>48</data>
                                 <data>66</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -6908,7 +7428,7 @@
                         </row>
                         <row>
                             <data>mcdq_dcp_top</data>
-                            <data>798</data>
+                            <data>801</data>
                             <data>568</data>
                             <data>68</data>
                             <data>0</data>
@@ -6934,7 +7454,7 @@
                             <data>0</data>
                             <row>
                                 <data>mcdq_dcp_back_ctrl</data>
-                                <data>527</data>
+                                <data>530</data>
                                 <data>385</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -7959,7 +8479,7 @@
                                 </row>
                                 <row>
                                     <data>timing_act_pass</data>
-                                    <data>24</data>
+                                    <data>25</data>
                                     <data>8</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -8013,7 +8533,7 @@
                                 </row>
                                 <row>
                                     <data>timing_ref_pass</data>
-                                    <data>23</data>
+                                    <data>22</data>
                                     <data>7</data>
                                     <data>0</data>
                                     <data>0</data>
@@ -8339,7 +8859,7 @@
                         </row>
                         <row>
                             <data>mcdq_dfi</data>
-                            <data>73</data>
+                            <data>74</data>
                             <data>83</data>
                             <data>0</data>
                             <data>0</data>
@@ -8447,8 +8967,8 @@
                         </row>
                         <row>
                             <data>mcdq_wdatapath</data>
-                            <data>37</data>
-                            <data>36</data>
+                            <data>288</data>
+                            <data>459</data>
                             <data>2</data>
                             <data>0</data>
                             <data>0</data>
@@ -8608,8 +9128,8 @@
                             </row>
                             <row>
                                 <data>mcdq_wdp_align</data>
-                                <data>9</data>
-                                <data>16</data>
+                                <data>260</data>
+                                <data>439</data>
                                 <data>0</data>
                                 <data>0</data>
                                 <data>0</data>
@@ -8719,8 +9239,8 @@
                 </row>
                 <row>
                     <data>axi_wr_ctrl_inst</data>
-                    <data>8</data>
-                    <data>32</data>
+                    <data>7</data>
+                    <data>271</data>
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
@@ -8746,9 +9266,12 @@
                 </row>
             </row>
             <row>
-                <data>cnt_rst</data>
-                <data>25</data>
-                <data>24</data>
+                <data>hdmi_in_inst</data>
+                <data>383</data>
+                <data>1073</data>
+                <data>0</data>
+                <data>0</data>
+                <data>4</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -8768,13 +9291,145 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
+                <row>
+                    <data>buff_fifo</data>
+                    <data>45</data>
+                    <data>50</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>4</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>U_ipml_fifo_PIX_BUFF</data>
+                        <data>45</data>
+                        <data>50</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>4</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_fifo_ctrl</data>
+                            <data>45</data>
+                            <data>50</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                        </row>
+                        <row>
+                            <data>U_ipml_sdpram</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>4</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                        </row>
+                    </row>
+                </row>
+                <row>
+                    <data>cnt_ddr_wr</data>
+                    <data>4</data>
+                    <data>3</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
             </row>
             <row>
                 <data>hdmi_out_inst</data>
-                <data>244</data>
+                <data>245</data>
                 <data>617</data>
                 <data>0</data>
                 <data>0</data>
@@ -8962,9 +9617,63 @@
                 </row>
             </row>
             <row>
+                <data>init_rst_inst</data>
+                <data>32</data>
+                <data>24</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <row>
+                    <data>cnt_rst</data>
+                    <data>25</data>
+                    <data>24</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+            </row>
+            <row>
                 <data>ms72xx_ctl</data>
-                <data>347</data>
-                <data>240</data>
+                <data>348</data>
+                <data>242</data>
                 <data>0</data>
                 <data>0</data>
                 <data>1.5</data>
@@ -9043,8 +9752,8 @@
                 </row>
                 <row>
                     <data>ms7200_ctl</data>
-                    <data>101</data>
-                    <data>53</data>
+                    <data>100</data>
+                    <data>54</data>
                     <data>0</data>
                     <data>0</data>
                     <data>1</data>
@@ -9070,8 +9779,8 @@
                 </row>
                 <row>
                     <data>ms7210_ctl</data>
-                    <data>90</data>
-                    <data>62</data>
+                    <data>92</data>
+                    <data>63</data>
                     <data>0</data>
                     <data>0</data>
                     <data>0.5</data>
@@ -9136,10 +9845,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:44s</data>
-            <data>0h:0m:44s</data>
-            <data>0h:0m:47s</data>
-            <data>1,064</data>
+            <data>0h:0m:52s</data>
+            <data>0h:0m:52s</data>
+            <data>0h:0m:54s</data>
+            <data>1,132</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i5-12600KF</data>
             <data>16</data>
@@ -9148,142 +9857,94 @@
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 3)] | Port iic_sda has been placed at location V20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 3)] | Port iic_sda has been placed at location V20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 14)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 14)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 16)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 16)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 19)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 19)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 47)] | Port b_out[2] has been placed at location T21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 47)] | Port b_out[2] has been placed at location T21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 49)] | Port b_out[4] has been placed at location R20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 49)] | Port b_out[4] has been placed at location R20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 50)] | Port b_out[5] has been placed at location R22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 50)] | Port b_out[5] has been placed at location R22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 54)] | Port g_out[0] has been placed at location M21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 54)] | Port g_out[0] has been placed at location M21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 59)] | Port g_out[5] has been placed at location L19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 59)] | Port g_out[5] has been placed at location L19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 60)] | Port g_out[6] has been placed at location K20, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 60)] | Port g_out[6] has been placed at location K20, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 61)] | Port g_out[7] has been placed at location L17, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 61)] | Port g_out[7] has been placed at location L17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 63)] | Port iic_scl has been placed at location V19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 63)] | Port iic_scl has been placed at location V19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 101)] | Port pixclk_out has been placed at location M22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 101)] | Port pixclk_out has been placed at location M22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 102)] | Port r_out[0] has been placed at location K17, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 102)] | Port r_out[0] has been placed at location K17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 107)] | Port r_out[5] has been placed at location H21, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 107)] | Port r_out[5] has been placed at location H21, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 108)] | Port r_out[6] has been placed at location H22, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 108)] | Port r_out[6] has been placed at location H22, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2002: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 109)] | Port r_out[7] has been placed at location H19, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 109)] | Port r_out[7] has been placed at location H19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 111)] Object 'b_in[0]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 121)] | Port g_in[1] has been placed at location V17, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 112)] Object 'b_in[1]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 122)] | Port g_in[2] has been placed at location W18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 113)] Object 'b_in[2]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 123)] | Port g_in[3] has been placed at location AB19, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 114)] Object 'b_in[3]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 124)] | Port g_in[4] has been placed at location AA18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 115)] Object 'b_in[4]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 125)] | Port g_in[5] has been placed at location AB18, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 116)] Object 'b_in[5]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2001: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 128)] Object 'hs_in' is dangling, which has no connection. it will be ignored.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 117)] Object 'b_in[6]' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 129)] | Port pixclk_in has been placed at location AA12, whose type is share pin.</data>
         </row>
         <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 118)] Object 'b_in[7]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 119)] Object 'de_in' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 120)] Object 'g_in[0]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 121)] Object 'g_in[1]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 122)] Object 'g_in[2]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 123)] Object 'g_in[3]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 124)] Object 'g_in[4]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 125)] Object 'g_in[5]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 126)] Object 'g_in[6]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 127)] Object 'g_in[7]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 128)] Object 'hs_in' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 129)] Object 'pixclk_in' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 130)] Object 'r_in[0]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 131)] Object 'r_in[1]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 132)] Object 'r_in[2]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 133)] Object 'r_in[3]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 134)] Object 'r_in[4]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 135)] Object 'r_in[5]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 136)] Object 'r_in[6]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 137)] Object 'r_in[7]' is dangling, which has no connection. it will be ignored.</data>
-        </row>
-        <row>
-            <data message="6">ConstraintEditor-2001: [F:/PDS_DEMO/ObjectRecognition/device_map/top.pcf(line number: 140)] Object 'vs_in' is dangling, which has no connection. it will be ignored.</data>
+            <data message="6">ConstraintEditor-2001: [C:/Users/JiaQi/Desktop/ObjectRecognition/device_map/top.pcf(line number: 140)] Object 'vs_in' is dangling, which has no connection. it will be ignored.</data>
         </row>
         <row>
             <data message="4">Column Clock Check open.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: hdmi_in_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm, insts:2.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: hdmi_in_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[2].U_GTP_DRM9K/iGopDrm, insts:2.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: hdmi_in_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[4].U_GTP_DRM9K/iGopDrm, insts:2.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: hdmi_in_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[6].U_GTP_DRM9K/iGopDrm, insts:2.</data>
         </row>
         <row>
             <data message="4">Infer CARRY group, base inst: hdmi_out_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm, insts:2.</data>
@@ -9298,13 +9959,13 @@
             <data message="4">Infer CARRY group, base inst: hdmi_out_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[6].U_GTP_DRM9K/iGopDrm, insts:2.</data>
         </row>
         <row>
-            <data message="6">Route-2015: Hold violation is 6440 ps over the critical value of 5000 ps, beyond the critical value will not be repaired.</data>
+            <data message="6">Route-2015: Hold violation is 6443 ps over the critical value of 5000 ps, beyond the critical value will not be repaired.</data>
         </row>
         <row>
-            <data message="5">Timing-4105: The worst slack of endpoint hdmi_out_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[3]/opit_0/D of clock ddrphy_clk_in is -6190ps(slow corner), but required hold violation threshold is 200ps.</data>
+            <data message="5">Timing-4105: The worst slack of endpoint hdmi_out_inst/buff_fifo/U_ipml_fifo_PIX_BUFF/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[2]/opit_0/D of clock ddrphy_clk_in is -6193ps(slow corner), but required hold violation threshold is 200ps.</data>
         </row>
         <row>
-            <data message="6">STA-3017: There are 6 clock cross SRB paths do not meet the required hold violation threshold(200ps).</data>
+            <data message="6">STA-3017: There are 7 clock cross SRB paths do not meet the required hold violation threshold(200ps).</data>
         </row>
     </table>
     <general_container id="pnr_settings">
@@ -9584,7 +10245,7 @@
                 </column_headers>
                 <row>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_clkbufg/gopclkbufg</data>
-                    <data>USCM_84_110</data>
+                    <data>USCM_84_111</data>
                     <data>axi_ctrl_inst/HMIC_S_inst/pll_clkin</data>
                     <data>68</data>
                     <data>0</data>
@@ -9594,7 +10255,7 @@
                 </row>
                 <row>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_clkbufg_gate/gopclkbufg</data>
-                    <data>USCM_84_111</data>
+                    <data>USCM_84_112</data>
                     <data>axi_ctrl_inst/HMIC_S_inst/ioclk_gate_clk</data>
                     <data>1</data>
                     <data>0</data>
@@ -9604,9 +10265,9 @@
                 </row>
                 <row>
                     <data>clkbufg_0/gopclkbufg</data>
-                    <data>USCM_84_112</data>
+                    <data>USCM_84_113</data>
                     <data>ntclkbufg_0</data>
-                    <data>3590</data>
+                    <data>4981</data>
                     <data>0</data>
                     <data>axi_ctrl_inst/HMIC_S_inst/I_GTP_CLKDIV/gopclkdiv</data>
                     <data>CLKDIV</data>
@@ -9616,6 +10277,16 @@
                     <data>clkbufg_1/gopclkbufg</data>
                     <data>USCM_84_108</data>
                     <data>ntclkbufg_1</data>
+                    <data>770</data>
+                    <data>0</data>
+                    <data>pixclk_in_ibuf/opit_1</data>
+                    <data>INCK</data>
+                    <data>IOL_163_6</data>
+                </row>
+                <row>
+                    <data>clkbufg_2/gopclkbufg</data>
+                    <data>USCM_84_109</data>
+                    <data>ntclkbufg_2</data>
                     <data>324</data>
                     <data>0</data>
                     <data>pll_top_inst/u_pll_e3/goppll</data>
@@ -9623,10 +10294,10 @@
                     <data>PLL_158_55</data>
                 </row>
                 <row>
-                    <data>clkbufg_2/gopclkbufg</data>
-                    <data>USCM_84_109</data>
-                    <data>ntclkbufg_2</data>
-                    <data>240</data>
+                    <data>clkbufg_3/gopclkbufg</data>
+                    <data>USCM_84_110</data>
+                    <data>ntclkbufg_3</data>
+                    <data>242</data>
                     <data>0</data>
                     <data>pll_top_inst/u_pll_e3/goppll</data>
                     <data>CLKOUT0</data>
@@ -9668,16 +10339,16 @@
                     <data> - </data>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_clkbufg/gopclkbufg</data>
                     <data>CLKOUT</data>
-                    <data>USCM_84_110</data>
+                    <data>USCM_84_111</data>
                 </row>
                 <row>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrphy_pll_0/u_pll_e3/goppll</data>
                     <data>PLL_158_199</data>
                     <data>CLKIN2</data>
-                    <data>ntR1117</data>
+                    <data>ntR1317</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_103</data>
+                    <data>GND_64</data>
                     <data>Z</data>
                     <data>HARD0N1_156_197</data>
                 </row>
@@ -9701,16 +10372,16 @@
                     <data> - </data>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_clkbufg/gopclkbufg</data>
                     <data>CLKOUT</data>
-                    <data>USCM_84_110</data>
+                    <data>USCM_84_111</data>
                 </row>
                 <row>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrphy_pll_1/u_pll_e3/goppll</data>
                     <data>PLL_158_179</data>
                     <data>CLKIN2</data>
-                    <data>ntR1121</data>
+                    <data>ntR1321</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_279</data>
+                    <data>GND_300</data>
                     <data>Z</data>
                     <data>HARD0N1_156_181</data>
                 </row>
@@ -9729,7 +10400,7 @@
                     <data>pll_top_inst/u_pll_e3/goppll</data>
                     <data>PLL_158_55</data>
                     <data>CLKIN1</data>
-                    <data>_N16</data>
+                    <data>_N19</data>
                     <data> - </data>
                     <data> - </data>
                     <data>sys_clk_ibuf/opit_1</data>
@@ -9740,10 +10411,10 @@
                     <data>pll_top_inst/u_pll_e3/goppll</data>
                     <data>PLL_158_55</data>
                     <data>CLKIN2</data>
-                    <data>ntR1188</data>
+                    <data>ntR1423</data>
                     <data> - </data>
                     <data> - </data>
-                    <data>GND_280</data>
+                    <data>GND_301</data>
                     <data>Z</data>
                     <data>HARD0N1_156_57</data>
                 </row>
@@ -9752,7 +10423,7 @@
                     <data>PLL_158_199</data>
                     <data>CLKOUT0_WL</data>
                     <data>clkout0_wl_0</data>
-                    <data>3591</data>
+                    <data>4982</data>
                     <data>0</data>
                     <data> ... </data>
                     <data> ... </data>
@@ -9767,7 +10438,7 @@
                     <data>0</data>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_clkbufg_gate/gopclkbufg</data>
                     <data>CLK</data>
-                    <data>USCM_84_111</data>
+                    <data>USCM_84_112</data>
                 </row>
                 <row>
                     <data>axi_ctrl_inst/HMIC_S_inst/u_ipsxb_ddrphy_pll_1/u_pll_e3/goppll</data>
@@ -9785,7 +10456,7 @@
                     <data>PLL_158_55</data>
                     <data>CLKOUT0</data>
                     <data>clk_10M</data>
-                    <data>240</data>
+                    <data>242</data>
                     <data>0</data>
                     <data> ... </data>
                     <data> ... </data>

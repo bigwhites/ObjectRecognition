@@ -60,32 +60,26 @@ module top(
   wire clk_10M ;
   wire [24-1 : 0] rst_value ;
 
-  reg wr_req                         ;
-  reg [`CTRL_ADDR_WIDTH-1:0]wr_addr  ;
-  reg [`MEM_DQ_WIDTH*8-1:0] wr_data  ;
-  reg [4-1:0]awlen        = 4'b0             ;
+  wire wr_req                         ;
+  wire [`CTRL_ADDR_WIDTH-1:0]wr_addr  ;
+  wire[`MEM_DQ_WIDTH*8-1:0] wr_data  ;
+  wire[4-1:0]awlen        = 4'b0             ;
   wire      wr_done             ;
   wire      wr_busy             ;
   wire      ddr_clk_100M        ;
   wire _72xx_init_done ;
 
-  assign  init_done = ddr_init_done & _72xx_init_done;
 
-  assign  led = {wr_busy,rd_busy,rd_req,wr_req};
 
-  cnt_once#(
-            .N(24),
-            .MIN(0),
-            .MAX(24'hffffff)
-          )cnt_rst(
-            .clk(clk_10M),
-            .rstn(sys_rst_n),
-            .en(pll_lock),
-            .cnt(rst_value)
-          );
-
-  assign rstn = (rst_value == 24'hffffff);
-
+  init_rst init_rst_inst(
+             .clk_10M(clk_10M),
+             .ddr_idone(ddr_init_done),
+             .hdmi_idone(_72xx_init_done),
+             .sys_rst_n(sys_rst_n),
+             .pll_lock(pll_lock),
+             .init_done(init_done),
+             .rstn(rstn)
+           );
 
   ms72xx_ctl ms72xx_ctl(   //hdmi 转换芯片配置
                .clk         (  clk_10M    ), //input       clk,
@@ -99,7 +93,6 @@ module top(
              );
 
   hdmi_out hdmi_out_inst(
-             //.led(led),
              .pix_clk(pixclk_out),
              .ddr_clk(ddr_clk_100M),
              .rstn(rstn),
@@ -121,16 +114,17 @@ module top(
 
   hdmi_in hdmi_in_inst(
             .rstn(rstn),
-            .ini_done(init_done),
+            .init_done(init_done),
+            .debug(led),
 
             //ddr写接口
             .ddr_clk(ddr_clk_100M),
             .wr_busy(wr_busy),
             .wr_done(wr_done),
-            .wr_req(),
-            .awlen(),
-            .ddr_waddr(),
-            .ddr_wdata(),
+            .wr_req(wr_req),
+            .awlen(awlen),
+            .ddr_waddr(wr_addr),
+            .ddr_wdata(wr_data),
 
             //hdmi输入
             .pix_clk(pixclk_in),
@@ -192,51 +186,5 @@ module top(
   //assign pixclk_out = pixclk_in;
 
 
-  reg wr_busy_d = 1'b0;
-  always @(posedge ddr_clk_100M )
-  begin
-    wr_busy_d <= wr_busy;
-  end
-  always @(posedge ddr_clk_100M )
-  begin
-    if(!rstn | !init_done)
-    begin
-      wr_req <= 'b0;
-      wr_data <= 'h0000_144475_144475_144475_144475_144475_144475_144475_144475_144475_144475;
-    end
-    else if(!wr_busy_d)
-    begin
-      wr_data <= 'h0000_144475_144475_144475_144475_144475_144475_144475_144475_144475_144475;
-      wr_req <= 1'b1;
-    end
-    else
-    begin
-      wr_data <= wr_data;
-      wr_req <= 1'b0;
-    end
-  end
 
-
-  always @(posedge ddr_clk_100M )
-  begin
-    if(!rstn)
-    begin
-      wr_addr <=28'b0;
-    end
-    else if(wr_done)
-    begin
-      if(wr_addr == `MAX_MEM_LOC)
-      begin
-        wr_addr <= 28'b0;
-      end
-      else
-      begin
-        wr_addr <= wr_addr + 'd32;
-      end
-    end
-    else
-    begin
-      wr_addr <= wr_addr;
-    end
-  end
 endmodule

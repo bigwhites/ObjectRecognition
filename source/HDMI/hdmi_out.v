@@ -6,7 +6,6 @@ module hdmi_out(
     input ddr_clk,
     input rstn,
     input init_done,
-    output wire [4-1:0] led,
     output reg rd_req = 1'b0,
     output reg [`CTRL_ADDR_WIDTH-1:0] ddr_rd_adr = 'b0,
     output reg [4-1:0] arlen ='b0 ,
@@ -29,8 +28,6 @@ module hdmi_out(
   localparam FIFO_WR =  'b100;
   reg [STATE_CNT-1 : 0] cur_state;
   reg [STATE_CNT-1 : 0] next_state ;
-
-  assign  led = {cur_state , rd_req};
 
   wire [`X_BITS-1:0] x_act ;
   wire [`Y_BITS-1:0] y_act ;

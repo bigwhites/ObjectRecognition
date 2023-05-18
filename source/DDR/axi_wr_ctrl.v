@@ -135,17 +135,13 @@ module axi_wr_ctrl(
     begin
       wr_busy <= 1'b0;
     end
-    else if(wr_req_rise)
+    else if(cur_state != IDLE)
     begin
       wr_busy <= 1'b1;
     end
-    else if(cur_state == IDLE)
-    begin
-      wr_busy <= 1'b0;
-    end
     else
     begin
-      wr_busy <= wr_busy;
+      wr_busy <= 'b0;
     end
   end
 

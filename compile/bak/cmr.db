@@ -58,6 +58,10 @@
             <data>Verilog</data>
         </row>
         <row>
+            <data>F:/PDS_DEMO/ObjectRecognition/source/utils/init_rst.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
             <data>F:/PDS_DEMO/ObjectRecognition/ipcore/DDR_IPC/DDR_IPC.idf</data>
             <data>IP</data>
         </row>
@@ -84,7 +88,7 @@
             <data>0h:0m:5s</data>
             <data>0h:0m:5s</data>
             <data>0h:0m:9s</data>
-            <data>203</data>
+            <data>205</data>
             <data>WINDOWS 10 x86_64</data>
             <data>12th Gen Intel(R) Core(TM) i5-12600KF</data>
             <data>16</data>
@@ -211,6 +215,12 @@
         </row>
         <row>
             <data message="4">Verilog-0002: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Analyzing module hdmi_in (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file F:/PDS_DEMO/ObjectRecognition/source/utils/init_rst.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [F:/PDS_DEMO/ObjectRecognition/source/utils/init_rst.v(line number: 1)] Analyzing module init_rst (library work)</data>
         </row>
         <row>
             <data message="4">Verilog-0001: Analyzing file F:/PDS_DEMO/ObjectRecognition/ipcore/DDR_IPC/DDR_IPC.v</data>
@@ -804,25 +814,25 @@
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 3)] Elaborating module top</data>
         </row>
         <row>
-            <data message="5">Verilog-2032: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 66)] Assigned initial value to variable awlen that is unassigned but has initial value</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 74)] Elaborating instance init_rst_inst</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 80)] Elaborating instance cnt_rst</data>
+            <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/utils/init_rst.v(line number: 1)] Elaborating module init_rst</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/utils/init_rst.v(line number: 18)] Elaborating instance cnt_rst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/utils/cnt_once.v(line number: 1)] Elaborating module cnt_once</data>
         </row>
         <row>
-            <data message="4">Module instance {top.cnt_rst} parameter value:
+            <data message="4">Module instance {top.init_rst_inst.cnt_rst} parameter value:
     N = 32'b00000000000000000000000000011000
     MAX = 24'b111111111111111111111111
     MIN = 32'b00000000000000000000000000000000</data>
         </row>
         <row>
-            <data message="5">Verilog-2019: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 84)] Width mismatch between port cnt and signal bound to it for instantiated module cnt_once</data>
-        </row>
-        <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 90)] Elaborating instance ms72xx_ctl</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 84)] Elaborating instance ms72xx_ctl</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/ms72xx_ctl.v(line number: 22)] Elaborating module ms72xx_ctl</data>
@@ -889,16 +899,16 @@
     DATA_BYTE = 2'b01</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 101)] Elaborating instance hdmi_out_inst</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 95)] Elaborating instance hdmi_out_inst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 4)] Elaborating module hdmi_out</data>
         </row>
         <row>
-            <data message="5">Verilog-2032: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 12)] Assigned initial value to variable arlen that is unassigned but has initial value</data>
+            <data message="5">Verilog-2032: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 11)] Assigned initial value to variable arlen that is unassigned but has initial value</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 185)] Elaborating instance cnt_fifo_wr</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 182)] Elaborating instance cnt_fifo_wr</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/utils/cnt_once.v(line number: 1)] Elaborating module cnt_once</data>
@@ -910,13 +920,13 @@
     MIN = 32'b00000000000000000000000000000000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 192)] Elaborating instance hv_cnt_inst</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 189)] Elaborating instance hv_cnt_inst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hv_cnt.v(line number: 2)] Elaborating module hv_cnt</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 202)] Elaborating instance buff_fifo</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_out.v(line number: 199)] Elaborating instance buff_fifo</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/ipcore/PIX_BUFF/PIX_BUFF.v(line number: 18)] Elaborating module PIX_BUFF</data>
@@ -1302,40 +1312,34 @@
             <data message="5">Verilog-2039: [F:/PDS_DEMO/ObjectRecognition/ipcore/PIX_BUFF/rtl/ipml_fifo_ctrl_v1_3.v(line number: 196)] Repeat multiplier in concatenation evaluates to 0</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 122)] Elaborating instance hdmi_in_inst</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 115)] Elaborating instance hdmi_in_inst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Elaborating module hdmi_in</data>
         </row>
         <row>
-            <data message="5">Verilog-2032: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 26)] Assigned initial value to variable wr_en that is unassigned but has initial value</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2032: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 27)] Assigned initial value to variable rd_en that is unassigned but has initial value</data>
-        </row>
-        <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 44)] Elaborating instance buff_fifo</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 46)] Elaborating instance buff_fifo</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/ipcore/PIX_BUFF/PIX_BUFF.v(line number: 18)] Elaborating module PIX_BUFF</data>
         </row>
         <row>
-            <data message="5">Verilog-2036: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 44)] Net fifo_wdata connected to input port of module instance top.hdmi_in_inst.buff_fifo has no driver, tie it to 0</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 151)] Elaborating instance cnt_ddr_wr</data>
         </row>
         <row>
-            <data message="5">Verilog-2024: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Give an initial value for the no drive output pin wr_req in graph of sdm module hdmi_in</data>
+            <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/utils/cnt_once.v(line number: 1)] Elaborating module cnt_once</data>
+        </row>
+        <row>
+            <data message="4">Module instance {top.hdmi_in_inst.cnt_ddr_wr} parameter value:
+    N = 32'b00000000000000000000000000000011
+    MAX = 32'b00000000000000000000000000000100
+    MIN = 32'b00000000000000000000000000000000</data>
         </row>
         <row>
             <data message="5">Verilog-2024: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Give an initial value for the no drive output pin awlen in graph of sdm module hdmi_in</data>
         </row>
         <row>
-            <data message="5">Verilog-2024: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Give an initial value for the no drive output pin ddr_waddr in graph of sdm module hdmi_in</data>
-        </row>
-        <row>
-            <data message="5">Verilog-2024: [F:/PDS_DEMO/ObjectRecognition/source/HDMI/hdmi_in.v(line number: 3)] Give an initial value for the no drive output pin ddr_wdata in graph of sdm module hdmi_in</data>
-        </row>
-        <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 145)] Elaborating instance axi_ctrl_inst</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 139)] Elaborating instance axi_ctrl_inst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/source/DDR/axi_ctrl.v(line number: 2)] Elaborating module axi_ctrl</data>
@@ -5947,7 +5951,7 @@
             <data message="5">Verilog-2036: [F:/PDS_DEMO/ObjectRecognition/source/DDR/axi_ctrl.v(line number: 138)] Net axi_aruser_id connected to input port of module instance top.axi_ctrl_inst.HMIC_S_inst has no driver, tie it to 0</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 185)] Elaborating instance pll_top_inst</data>
+            <data message="4">Verilog-0004: [F:/PDS_DEMO/ObjectRecognition/source/top.v(line number: 179)] Elaborating instance pll_top_inst</data>
         </row>
         <row>
             <data message="4">Verilog-0003: [F:/PDS_DEMO/ObjectRecognition/ipcore/PLL_top/PLL_top.v(line number: 20)] Elaborating module PLL_top</data>
@@ -6043,6 +6047,9 @@
             <data message="4">FSM cur_state_fsm[2:0] inferred.</data>
         </row>
         <row>
+            <data message="4">FSM cur_state_fsm[3:0] inferred.</data>
+        </row>
+        <row>
             <data message="4">FSM state_fsm[6:0] inferred.</data>
         </row>
         <row>
@@ -6121,6 +6128,69 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
+            <data message="4">Constant propagation done on N45 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N52 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N58 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N66 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N73 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N80 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N142 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
@@ -6140,63 +6210,6 @@
         </row>
         <row>
             <data message="4">Constant propagation done on N29 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N34 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N39 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N44 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N7_5 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N81 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N86 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="4">Constant propagation done on N91 (bmsREDXOR).</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
